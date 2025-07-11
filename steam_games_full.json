@@ -1,0 +1,802 @@
+[
+  {
+    "rank": 1,
+    "name": "Counter-Strike 2",
+    "currentPlayers": 840515,
+    "peakToday": 1354959,
+    "link_steam_shop": "https://store.steampowered.com/app/730/CounterStrike_2?snr=1_7001_7005__7003",
+    "steam_appid": 730
+  },
+  {
+    "rank": 2,
+    "name": "Dota 2",
+    "currentPlayers": 375967,
+    "peakToday": 560181,
+    "link_steam_shop": "https://store.steampowered.com/app/570/Dota_2?snr=1_7001_7005__7003",
+    "steam_appid": 570
+  },
+  {
+    "rank": 3,
+    "name": "PUBG: BATTLEGROUNDS",
+    "currentPlayers": 315476,
+    "peakToday": 715750,
+    "link_steam_shop": "https://store.steampowered.com/app/578080/PUBG_BATTLEGROUNDS?snr=1_7001_7005__7003",
+    "steam_appid": 578080
+  },
+  {
+    "rank": 4,
+    "name": "Bongo Cat",
+    "currentPlayers": 136047,
+    "peakToday": 167144,
+    "link_steam_shop": "https://store.steampowered.com/app/3419430/Bongo_Cat?snr=1_7001_7005__7003",
+    "steam_appid": 3419430
+  },
+  {
+    "rank": 5,
+    "name": "Delta Force",
+    "currentPlayers": 124284,
+    "peakToday": 181825,
+    "link_steam_shop": "https://store.steampowered.com/app/2507950/Delta_Force?snr=1_7001_7005__7003",
+    "steam_appid": 2507950
+  },
+  {
+    "rank": 6,
+    "name": "Banana",
+    "currentPlayers": 107783,
+    "peakToday": 107783,
+    "link_steam_shop": "https://store.steampowered.com/app/2923300/Banana?snr=1_7001_7005__7003",
+    "steam_appid": 2923300
+  },
+  {
+    "rank": 7,
+    "name": "Rust",
+    "currentPlayers": 95307,
+    "peakToday": 145161,
+    "link_steam_shop": "https://store.steampowered.com/app/252490/Rust?snr=1_7001_7005__7003",
+    "steam_appid": 252490
+  },
+  {
+    "rank": 8,
+    "name": "Stardew Valley",
+    "currentPlayers": 94118,
+    "peakToday": 153193,
+    "link_steam_shop": "https://store.steampowered.com/app/413150/Stardew_Valley?snr=1_7001_7005__7003",
+    "steam_appid": 413150
+  },
+  {
+    "rank": 9,
+    "name": "Wallpaper Engine",
+    "currentPlayers": 93840,
+    "peakToday": 123305,
+    "link_steam_shop": "https://store.steampowered.com/app/431960/Wallpaper_Engine?snr=1_7001_7005__7003",
+    "steam_appid": 431960
+  },
+  {
+    "rank": 10,
+    "name": "NARAKA: BLADEPOINT",
+    "currentPlayers": 89561,
+    "peakToday": 185333,
+    "link_steam_shop": "https://store.steampowered.com/app/1203220/NARAKA_BLADEPOINT?snr=1_7001_7005__7003",
+    "steam_appid": 1203220
+  },
+  {
+    "rank": 11,
+    "name": "Apex Legends",
+    "currentPlayers": 73875,
+    "peakToday": 154317,
+    "link_steam_shop": "https://store.steampowered.com/app/1172470/Apex_Legends?snr=1_7001_7005__7003",
+    "steam_appid": 1172470
+  },
+  {
+    "rank": 12,
+    "name": "Grand Theft Auto V Legacy",
+    "currentPlayers": 70882,
+    "peakToday": 92748,
+    "link_steam_shop": "https://store.steampowered.com/app/271590/Grand_Theft_Auto_V_Legacy?snr=1_7001_7005__7003",
+    "steam_appid": 271590
+  },
+  {
+    "rank": 13,
+    "name": "War Thunder",
+    "currentPlayers": 50405,
+    "peakToday": 72795,
+    "link_steam_shop": "https://store.steampowered.com/app/236390/War_Thunder?snr=1_7001_7005__7003",
+    "steam_appid": 236390
+  },
+  {
+    "rank": 14,
+    "name": "Palworld",
+    "currentPlayers": 49551,
+    "peakToday": 77363,
+    "link_steam_shop": "https://store.steampowered.com/app/1623730/Palworld?snr=1_7001_7005__7003",
+    "steam_appid": 1623730
+  },
+  {
+    "rank": 15,
+    "name": "Team Fortress 2",
+    "currentPlayers": 49015,
+    "peakToday": 57389,
+    "link_steam_shop": "https://store.steampowered.com/app/440/Team_Fortress_2?snr=1_7001_7005__7003",
+    "steam_appid": 440
+  },
+  {
+    "rank": 16,
+    "name": "Dead by Daylight",
+    "currentPlayers": 45339,
+    "peakToday": 88480,
+    "link_steam_shop": "https://store.steampowered.com/app/381210/Dead_by_Daylight?snr=1_7001_7005__7003",
+    "steam_appid": 381210
+  },
+  {
+    "rank": 17,
+    "name": "Tom Clancy's Rainbow Six Siege X",
+    "currentPlayers": 45228,
+    "peakToday": 94729,
+    "link_steam_shop": "https://store.steampowered.com/app/359550/Tom_Clancys_Rainbow_Six_Siege_X?snr=1_7001_7005__7003",
+    "steam_appid": 359550
+  },
+  {
+    "rank": 18,
+    "name": "Football Manager 2024",
+    "currentPlayers": 43971,
+    "peakToday": 63564,
+    "link_steam_shop": "https://store.steampowered.com/app/2252570/Football_Manager_2024?snr=1_7001_7005__7003",
+    "steam_appid": 2252570
+  },
+  {
+    "rank": 19,
+    "name": "EA SPORTS FC 25",
+    "currentPlayers": 43529,
+    "peakToday": 75604,
+    "link_steam_shop": "https://store.steampowered.com/app/2669320/EA_SPORTS_FC_25?snr=1_7001_7005__7003",
+    "steam_appid": 2669320
+  },
+  {
+    "rank": 20,
+    "name": "Grand Theft Auto V Enhanced",
+    "currentPlayers": 41120,
+    "peakToday": 60126,
+    "link_steam_shop": "https://store.steampowered.com/app/3240220/Grand_Theft_Auto_V_Enhanced?snr=1_7001_7005__7003",
+    "steam_appid": 3240220
+  },
+  {
+    "rank": 21,
+    "name": "Path of Exile",
+    "currentPlayers": 40409,
+    "peakToday": 68669,
+    "link_steam_shop": "https://store.steampowered.com/app/238960/Path_of_Exile?snr=1_7001_7005__7003",
+    "steam_appid": 238960
+  },
+  {
+    "rank": 22,
+    "name": "Cyberpunk 2077",
+    "currentPlayers": 37238,
+    "peakToday": 57090,
+    "link_steam_shop": "https://store.steampowered.com/app/1091500/Cyberpunk_2077?snr=1_7001_7005__7003",
+    "steam_appid": 1091500
+  },
+  {
+    "rank": 23,
+    "name": "Crosshair X",
+    "currentPlayers": 36359,
+    "peakToday": 53910,
+    "link_steam_shop": "https://store.steampowered.com/app/1366800/Crosshair_X?snr=1_7001_7005__7003",
+    "steam_appid": 1366800
+  },
+  {
+    "rank": 24,
+    "name": "Hearts of Iron IV",
+    "currentPlayers": 35270,
+    "peakToday": 48379,
+    "link_steam_shop": "https://store.steampowered.com/app/394360/Hearts_of_Iron_IV?snr=1_7001_7005__7003",
+    "steam_appid": 394360
+  },
+  {
+    "rank": 25,
+    "name": "Don't Starve Together",
+    "currentPlayers": 34902,
+    "peakToday": 54140,
+    "link_steam_shop": "https://store.steampowered.com/app/322330/Dont_Starve_Together?snr=1_7001_7005__7003",
+    "steam_appid": 322330
+  },
+  {
+    "rank": 26,
+    "name": "Dune: Awakening",
+    "currentPlayers": 34465,
+    "peakToday": 75936,
+    "link_steam_shop": "https://store.steampowered.com/app/1172710/Dune_Awakening?snr=1_7001_7005__7003",
+    "steam_appid": 1172710
+  },
+  {
+    "rank": 27,
+    "name": "Red Dead Redemption 2",
+    "currentPlayers": 33838,
+    "peakToday": 49261,
+    "link_steam_shop": "https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2?snr=1_7001_7005__7003",
+    "steam_appid": 1174180
+  },
+  {
+    "rank": 28,
+    "name": "Warframe",
+    "currentPlayers": 32987,
+    "peakToday": 48451,
+    "link_steam_shop": "https://store.steampowered.com/app/230410/Warframe?snr=1_7001_7005__7003",
+    "steam_appid": 230410
+  },
+  {
+    "rank": 29,
+    "name": "7 Days to Die",
+    "currentPlayers": 32686,
+    "peakToday": 58605,
+    "link_steam_shop": "https://store.steampowered.com/app/251570/7_Days_to_Die?snr=1_7001_7005__7003",
+    "steam_appid": 251570
+  },
+  {
+    "rank": 30,
+    "name": "ELDEN RING",
+    "currentPlayers": 32310,
+    "peakToday": 51559,
+    "link_steam_shop": "https://store.steampowered.com/app/1245620/ELDEN_RING?snr=1_7001_7005__7003",
+    "steam_appid": 1245620
+  },
+  {
+    "rank": 31,
+    "name": "ELDEN RING NIGHTREIGN",
+    "currentPlayers": 31929,
+    "peakToday": 78105,
+    "link_steam_shop": "https://store.steampowered.com/app/2622380/ELDEN_RING_NIGHTREIGN?snr=1_7001_7005__7003",
+    "steam_appid": 2622380
+  },
+  {
+    "rank": 32,
+    "name": "Baldur's Gate 3",
+    "currentPlayers": 31549,
+    "peakToday": 62973,
+    "link_steam_shop": "https://store.steampowered.com/app/1086940/Baldurs_Gate_3?snr=1_7001_7005__7003",
+    "steam_appid": 1086940
+  },
+  {
+    "rank": 33,
+    "name": "Terraria",
+    "currentPlayers": 29236,
+    "peakToday": 43605,
+    "link_steam_shop": "https://store.steampowered.com/app/105600/Terraria?snr=1_7001_7005__7003",
+    "steam_appid": 105600
+  },
+  {
+    "rank": 34,
+    "name": "Call of Duty",
+    "currentPlayers": 28912,
+    "peakToday": 69344,
+    "link_steam_shop": "https://store.steampowered.com/app/1938090/Call_of_Duty?snr=1_7001_7005__7003",
+    "steam_appid": 1938090
+  },
+  {
+    "rank": 35,
+    "name": "tModLoader",
+    "currentPlayers": 28528,
+    "peakToday": 40538,
+    "link_steam_shop": "https://store.steampowered.com/app/1281930/tModLoader?snr=1_7001_7005__7003",
+    "steam_appid": 1281930
+  },
+  {
+    "rank": 36,
+    "name": "VRChat",
+    "currentPlayers": 28514,
+    "peakToday": 44431,
+    "link_steam_shop": "https://store.steampowered.com/app/438100/VRChat?snr=1_7001_7005__7003",
+    "steam_appid": 438100
+  },
+  {
+    "rank": 37,
+    "name": "Umamusume: Pretty Derby",
+    "currentPlayers": 27905,
+    "peakToday": 49698,
+    "link_steam_shop": "https://store.steampowered.com/app/3224770/Umamusume_Pretty_Derby?snr=1_7001_7005__7003",
+    "steam_appid": 3224770
+  },
+  {
+    "rank": 38,
+    "name": "NBA 2K25",
+    "currentPlayers": 27904,
+    "peakToday": 45077,
+    "link_steam_shop": "https://store.steampowered.com/app/2878980/NBA_2K25?snr=1_7001_7005__7003",
+    "steam_appid": 2878980
+  },
+  {
+    "rank": 39,
+    "name": "Mecha BREAK",
+    "currentPlayers": 27818,
+    "peakToday": 52486,
+    "link_steam_shop": "https://store.steampowered.com/app/2452280/Mecha_BREAK?snr=1_7001_7005__7003",
+    "steam_appid": 2452280
+  },
+  {
+    "rank": 40,
+    "name": "Sid Meier’s Civilization VI",
+    "currentPlayers": 27664,
+    "peakToday": 39725,
+    "link_steam_shop": "https://store.steampowered.com/app/289070/Sid_Meiers_Civilization_VI?snr=1_7001_7005__7003",
+    "steam_appid": 289070
+  },
+  {
+    "rank": 41,
+    "name": "Geometry Dash",
+    "currentPlayers": 27443,
+    "peakToday": 41606,
+    "link_steam_shop": "https://store.steampowered.com/app/322170/Geometry_Dash?snr=1_7001_7005__7003",
+    "steam_appid": 322170
+  },
+  {
+    "rank": 42,
+    "name": "Shadowverse: Worlds Beyond",
+    "currentPlayers": 26501,
+    "peakToday": 53132,
+    "link_steam_shop": "https://store.steampowered.com/app/2584990/Shadowverse_Worlds_Beyond?snr=1_7001_7005__7003",
+    "steam_appid": 2584990
+  },
+  {
+    "rank": 43,
+    "name": "DayZ",
+    "currentPlayers": 26342,
+    "peakToday": 50953,
+    "link_steam_shop": "https://store.steampowered.com/app/221100/DayZ?snr=1_7001_7005__7003",
+    "steam_appid": 221100
+  },
+  {
+    "rank": 44,
+    "name": "The Sims 4",
+    "currentPlayers": 25180,
+    "peakToday": 40573,
+    "link_steam_shop": "https://store.steampowered.com/app/1222670/The_Sims_4?snr=1_7001_7005__7003",
+    "steam_appid": 1222670
+  },
+  {
+    "rank": 45,
+    "name": "Black Myth: Wukong",
+    "currentPlayers": 25040,
+    "peakToday": 40090,
+    "link_steam_shop": "https://store.steampowered.com/app/2358720/Black_Myth_Wukong?snr=1_7001_7005__7003",
+    "steam_appid": 2358720
+  },
+  {
+    "rank": 46,
+    "name": "Euro Truck Simulator 2",
+    "currentPlayers": 24933,
+    "peakToday": 41647,
+    "link_steam_shop": "https://store.steampowered.com/app/227300/Euro_Truck_Simulator_2?snr=1_7001_7005__7003",
+    "steam_appid": 227300
+  },
+  {
+    "rank": 47,
+    "name": "HELLDIVERS 2",
+    "currentPlayers": 24373,
+    "peakToday": 47894,
+    "link_steam_shop": "https://store.steampowered.com/app/553850/HELLDIVERS_2?snr=1_7001_7005__7003",
+    "steam_appid": 553850
+  },
+  {
+    "rank": 48,
+    "name": "Once Human",
+    "currentPlayers": 24220,
+    "peakToday": 39054,
+    "link_steam_shop": "https://store.steampowered.com/app/2139460/Once_Human?snr=1_7001_7005__7003",
+    "steam_appid": 2139460
+  },
+  {
+    "rank": 49,
+    "name": "ARK: Survival Evolved",
+    "currentPlayers": 23402,
+    "peakToday": 35411,
+    "link_steam_shop": "https://store.steampowered.com/app/346110/ARK_Survival_Evolved?snr=1_7001_7005__7003",
+    "steam_appid": 346110
+  },
+  {
+    "rank": 50,
+    "name": "Mount & Blade II: Bannerlord",
+    "currentPlayers": 22615,
+    "peakToday": 34525,
+    "link_steam_shop": "https://store.steampowered.com/app/261550/Mount__Blade_II_Bannerlord?snr=1_7001_7005__7003",
+    "steam_appid": 261550
+  },
+  {
+    "rank": 51,
+    "name": "Limbus Company",
+    "currentPlayers": 22306,
+    "peakToday": 34953,
+    "link_steam_shop": "https://store.steampowered.com/app/1973530/Limbus_Company?snr=1_7001_7005__7003",
+    "steam_appid": 1973530
+  },
+  {
+    "rank": 52,
+    "name": "PEAK",
+    "currentPlayers": 22122,
+    "peakToday": 93639,
+    "link_steam_shop": "https://store.steampowered.com/app/3527290/PEAK?snr=1_7001_7005__7003",
+    "steam_appid": 3527290
+  },
+  {
+    "rank": 53,
+    "name": "RimWorld",
+    "currentPlayers": 21246,
+    "peakToday": 29128,
+    "link_steam_shop": "https://store.steampowered.com/app/294100/RimWorld?snr=1_7001_7005__7003",
+    "steam_appid": 294100
+  },
+  {
+    "rank": 54,
+    "name": "Black Desert",
+    "currentPlayers": 19782,
+    "peakToday": 22348,
+    "link_steam_shop": "https://store.steampowered.com/app/582660/Black_Desert?snr=1_7001_7005__7003",
+    "steam_appid": 582660
+  },
+  {
+    "rank": 55,
+    "name": "Sons Of The Forest",
+    "currentPlayers": 19621,
+    "peakToday": 45466,
+    "link_steam_shop": "https://store.steampowered.com/app/1326470/Sons_Of_The_Forest?snr=1_7001_7005__7003",
+    "steam_appid": 1326470
+  },
+  {
+    "rank": 56,
+    "name": "ARK: Survival Ascended",
+    "currentPlayers": 19075,
+    "peakToday": 30556,
+    "link_steam_shop": "https://store.steampowered.com/app/2399830/ARK_Survival_Ascended?snr=1_7001_7005__7003",
+    "steam_appid": 2399830
+  },
+  {
+    "rank": 57,
+    "name": "Total War: WARHAMMER III",
+    "currentPlayers": 18365,
+    "peakToday": 28766,
+    "link_steam_shop": "https://store.steampowered.com/app/1142710/Total_War_WARHAMMER_III?snr=1_7001_7005__7003",
+    "steam_appid": 1142710
+  },
+  {
+    "rank": 58,
+    "name": "PAYDAY 2",
+    "currentPlayers": 17622,
+    "peakToday": 29698,
+    "link_steam_shop": "https://store.steampowered.com/app/218620/PAYDAY_2?snr=1_7001_7005__7003",
+    "steam_appid": 218620
+  },
+  {
+    "rank": 59,
+    "name": "Left 4 Dead 2",
+    "currentPlayers": 17492,
+    "peakToday": 36188,
+    "link_steam_shop": "https://store.steampowered.com/app/550/Left_4_Dead_2?snr=1_7001_7005__7003",
+    "steam_appid": 550
+  },
+  {
+    "rank": 60,
+    "name": "Garry's Mod",
+    "currentPlayers": 17418,
+    "peakToday": 29187,
+    "link_steam_shop": "https://store.steampowered.com/app/4000/Garrys_Mod?snr=1_7001_7005__7003",
+    "steam_appid": 4000
+  },
+  {
+    "rank": 61,
+    "name": "R.E.P.O.",
+    "currentPlayers": 17416,
+    "peakToday": 52765,
+    "link_steam_shop": "https://store.steampowered.com/app/3241660/REPO?snr=1_7001_7005__7003",
+    "steam_appid": 3241660
+  },
+  {
+    "rank": 62,
+    "name": "SCUM",
+    "currentPlayers": 17360,
+    "peakToday": 25430,
+    "link_steam_shop": "https://store.steampowered.com/app/513710/SCUM?snr=1_7001_7005__7003",
+    "steam_appid": 513710
+  },
+  {
+    "rank": 63,
+    "name": "The Binding of Isaac: Rebirth",
+    "currentPlayers": 17016,
+    "peakToday": 24747,
+    "link_steam_shop": "https://store.steampowered.com/app/250900/The_Binding_of_Isaac_Rebirth?snr=1_7001_7005__7003",
+    "steam_appid": 250900
+  },
+  {
+    "rank": 64,
+    "name": "Yu-Gi-Oh! Master Duel",
+    "currentPlayers": 16555,
+    "peakToday": 29762,
+    "link_steam_shop": "https://store.steampowered.com/app/1449850/YuGiOh_Master_Duel?snr=1_7001_7005__7003",
+    "steam_appid": 1449850
+  },
+  {
+    "rank": 65,
+    "name": "Project Zomboid",
+    "currentPlayers": 16217,
+    "peakToday": 26923,
+    "link_steam_shop": "https://store.steampowered.com/app/108600/Project_Zomboid?snr=1_7001_7005__7003",
+    "steam_appid": 108600
+  },
+  {
+    "rank": 66,
+    "name": "STALCRAFT: X",
+    "currentPlayers": 16030,
+    "peakToday": 25891,
+    "link_steam_shop": "https://store.steampowered.com/app/1818450/STALCRAFT_X?snr=1_7001_7005__7003",
+    "steam_appid": 1818450
+  },
+  {
+    "rank": 67,
+    "name": "Destiny 2",
+    "currentPlayers": 15902,
+    "peakToday": 34799,
+    "link_steam_shop": "https://store.steampowered.com/app/1085660/Destiny_2?snr=1_7001_7005__7003",
+    "steam_appid": 1085660
+  },
+  {
+    "rank": 68,
+    "name": "Diablo IV",
+    "currentPlayers": 15840,
+    "peakToday": 26638,
+    "link_steam_shop": "https://store.steampowered.com/app/2344520/Diablo_IV?snr=1_7001_7005__7003",
+    "steam_appid": 2344520
+  },
+  {
+    "rank": 69,
+    "name": "OBS Studio",
+    "currentPlayers": 15637,
+    "peakToday": 22926,
+    "link_steam_shop": "https://store.steampowered.com/app/1905180/OBS_Studio?snr=1_7001_7005__7003",
+    "steam_appid": 1905180
+  },
+  {
+    "rank": 70,
+    "name": "Monster Hunter Wilds",
+    "currentPlayers": 15085,
+    "peakToday": 37040,
+    "link_steam_shop": "https://store.steampowered.com/app/2246340/Monster_Hunter_Wilds?snr=1_7001_7005__7003",
+    "steam_appid": 2246340
+  },
+  {
+    "rank": 71,
+    "name": "Forza Horizon 5",
+    "currentPlayers": 14483,
+    "peakToday": 23066,
+    "link_steam_shop": "https://store.steampowered.com/app/1551360/Forza_Horizon_5?snr=1_7001_7005__7003",
+    "steam_appid": 1551360
+  },
+  {
+    "rank": 72,
+    "name": "Slay the Spire",
+    "currentPlayers": 14259,
+    "peakToday": 20149,
+    "link_steam_shop": "https://store.steampowered.com/app/646570/Slay_the_Spire?snr=1_7001_7005__7003",
+    "steam_appid": 646570
+  },
+  {
+    "rank": 73,
+    "name": "Stellar Blade",
+    "currentPlayers": 14213,
+    "peakToday": 31954,
+    "link_steam_shop": "https://store.steampowered.com/app/3489700/Stellar_Blade?snr=1_7001_7005__7003",
+    "steam_appid": 3489700
+  },
+  {
+    "rank": 74,
+    "name": "Farming Simulator 25",
+    "currentPlayers": 14173,
+    "peakToday": 29590,
+    "link_steam_shop": "https://store.steampowered.com/app/2300320/Farming_Simulator_25?snr=1_7001_7005__7003",
+    "steam_appid": 2300320
+  },
+  {
+    "rank": 75,
+    "name": "Overwatch 2",
+    "currentPlayers": 14108,
+    "peakToday": 26405,
+    "link_steam_shop": "https://store.steampowered.com/app/2357570/Overwatch_2?snr=1_7001_7005__7003",
+    "steam_appid": 2357570
+  },
+  {
+    "rank": 76,
+    "name": "Soundpad",
+    "currentPlayers": 13739,
+    "peakToday": 22617,
+    "link_steam_shop": "https://store.steampowered.com/app/629520/Soundpad?snr=1_7001_7005__7003",
+    "steam_appid": 629520
+  },
+  {
+    "rank": 77,
+    "name": "BeamNG.drive",
+    "currentPlayers": 13737,
+    "peakToday": 23222,
+    "link_steam_shop": "https://store.steampowered.com/app/284160/BeamNGdrive?snr=1_7001_7005__7003",
+    "steam_appid": 284160
+  },
+  {
+    "rank": 78,
+    "name": "Street Fighter 6",
+    "currentPlayers": 13656,
+    "peakToday": 28189,
+    "link_steam_shop": "https://store.steampowered.com/app/1364780/Street_Fighter_6?snr=1_7001_7005__7003",
+    "steam_appid": 1364780
+  },
+  {
+    "rank": 79,
+    "name": "Satisfactory",
+    "currentPlayers": 13375,
+    "peakToday": 24796,
+    "link_steam_shop": "https://store.steampowered.com/app/526870/Satisfactory?snr=1_7001_7005__7003",
+    "steam_appid": 526870
+  },
+  {
+    "rank": 80,
+    "name": "Ведьмак 3: Дикая Охота",
+    "currentPlayers": 13325,
+    "peakToday": 20896,
+    "link_steam_shop": "https://store.steampowered.com/app/292030/_3?snr=1_7001_7005__7003",
+    "steam_appid": 292030
+  },
+  {
+    "rank": 81,
+    "name": "Russian Fishing 4",
+    "currentPlayers": 13271,
+    "peakToday": 18571,
+    "link_steam_shop": "https://store.steampowered.com/app/766570/Russian_Fishing_4?snr=1_7001_7005__7003",
+    "steam_appid": 766570
+  },
+  {
+    "rank": 82,
+    "name": "The Elder Scrolls V: Skyrim Special Edition",
+    "currentPlayers": 12537,
+    "peakToday": 21833,
+    "link_steam_shop": "https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition?snr=1_7001_7005__7003",
+    "steam_appid": 489830
+  },
+  {
+    "rank": 83,
+    "name": "MIR4",
+    "currentPlayers": 12428,
+    "peakToday": 12513,
+    "link_steam_shop": "https://store.steampowered.com/app/1623660/MIR4?snr=1_7001_7005__7003",
+    "steam_appid": 1623660
+  },
+  {
+    "rank": 84,
+    "name": "Counter-Strike: Source",
+    "currentPlayers": 12411,
+    "peakToday": 21255,
+    "link_steam_shop": "https://store.steampowered.com/app/240/CounterStrike_Source?snr=1_7001_7005__7003",
+    "steam_appid": 240
+  },
+  {
+    "rank": 85,
+    "name": "Cookie Clicker",
+    "currentPlayers": 12388,
+    "peakToday": 14538,
+    "link_steam_shop": "https://store.steampowered.com/app/1454400/Cookie_Clicker?snr=1_7001_7005__7003",
+    "steam_appid": 1454400
+  },
+  {
+    "rank": 86,
+    "name": "Revolution Idle",
+    "currentPlayers": 12373,
+    "peakToday": 12373,
+    "link_steam_shop": "https://store.steampowered.com/app/2763740/Revolution_Idle?snr=1_7001_7005__7003",
+    "steam_appid": 2763740
+  },
+  {
+    "rank": 87,
+    "name": "Monster Hunter: World",
+    "currentPlayers": 12262,
+    "peakToday": 22174,
+    "link_steam_shop": "https://store.steampowered.com/app/582010/Monster_Hunter_World?snr=1_7001_7005__7003",
+    "steam_appid": 582010
+  },
+  {
+    "rank": 88,
+    "name": "Unturned",
+    "currentPlayers": 12165,
+    "peakToday": 17317,
+    "link_steam_shop": "https://store.steampowered.com/app/304930/Unturned?snr=1_7001_7005__7003",
+    "steam_appid": 304930
+  },
+  {
+    "rank": 89,
+    "name": "Crusader Kings III",
+    "currentPlayers": 12134,
+    "peakToday": 18442,
+    "link_steam_shop": "https://store.steampowered.com/app/1158310/Crusader_Kings_III?snr=1_7001_7005__7003",
+    "steam_appid": 1158310
+  },
+  {
+    "rank": 90,
+    "name": "Age of Empires II: Definitive Edition",
+    "currentPlayers": 11866,
+    "peakToday": 19166,
+    "link_steam_shop": "https://store.steampowered.com/app/813780/Age_of_Empires_II_Definitive_Edition?snr=1_7001_7005__7003",
+    "steam_appid": 813780
+  },
+  {
+    "rank": 91,
+    "name": "Oxygen Not Included",
+    "currentPlayers": 11799,
+    "peakToday": 16504,
+    "link_steam_shop": "https://store.steampowered.com/app/457140/Oxygen_Not_Included?snr=1_7001_7005__7003",
+    "steam_appid": 457140
+  },
+  {
+    "rank": 92,
+    "name": "Marvel Rivals",
+    "currentPlayers": 11663,
+    "peakToday": 96553,
+    "link_steam_shop": "https://store.steampowered.com/app/2767030/Marvel_Rivals?snr=1_7001_7005__7003",
+    "steam_appid": 2767030
+  },
+  {
+    "rank": 93,
+    "name": "Europa Universalis IV",
+    "currentPlayers": 11605,
+    "peakToday": 17666,
+    "link_steam_shop": "https://store.steampowered.com/app/236850/Europa_Universalis_IV?snr=1_7001_7005__7003",
+    "steam_appid": 236850
+  },
+  {
+    "rank": 94,
+    "name": "It Takes Two",
+    "currentPlayers": 11491,
+    "peakToday": 24599,
+    "link_steam_shop": "https://store.steampowered.com/app/1426210/It_Takes_Two?snr=1_7001_7005__7003",
+    "steam_appid": 1426210
+  },
+  {
+    "rank": 95,
+    "name": "Clair Obscur: Expedition 33",
+    "currentPlayers": 11408,
+    "peakToday": 22265,
+    "link_steam_shop": "https://store.steampowered.com/app/1903340/Clair_Obscur_Expedition_33?snr=1_7001_7005__7003",
+    "steam_appid": 1903340
+  },
+  {
+    "rank": 96,
+    "name": "Factorio",
+    "currentPlayers": 11391,
+    "peakToday": 18811,
+    "link_steam_shop": "https://store.steampowered.com/app/427520/Factorio?snr=1_7001_7005__7003",
+    "steam_appid": 427520
+  },
+  {
+    "rank": 97,
+    "name": "eFootball",
+    "currentPlayers": 11245,
+    "peakToday": 24262,
+    "link_steam_shop": "https://store.steampowered.com/app/1665460/eFootball?snr=1_7001_7005__7003",
+    "steam_appid": 1665460
+  },
+  {
+    "rank": 98,
+    "name": "IdleOn - The Idle RPG",
+    "currentPlayers": 11047,
+    "peakToday": 13095,
+    "link_steam_shop": "https://store.steampowered.com/app/1476970/IdleOn__The_Idle_RPG?snr=1_7001_7005__7003",
+    "steam_appid": 1476970
+  },
+  {
+    "rank": 99,
+    "name": "REMATCH",
+    "currentPlayers": 10965,
+    "peakToday": 39420,
+    "link_steam_shop": "https://store.steampowered.com/app/2138720/REMATCH?snr=1_7001_7005__7003",
+    "steam_appid": 2138720
+  },
+  {
+    "rank": 100,
+    "name": "Bloons TD 6",
+    "currentPlayers": 10689,
+    "peakToday": 16630,
+    "link_steam_shop": "https://store.steampowered.com/app/960090/Bloons_TD_6?snr=1_7001_7005__7003",
+    "steam_appid": 960090
+  }
+]

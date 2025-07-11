@@ -1,0 +1,40 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+ 
+
+model Game {
+  id                 Int       @id @default(autoincrement())
+  steamAppId         Int?      @unique  // Добавляем steam_appid (может быть null)
+  twitchGameId       Int?      // Делаем необязательным
+  steamName          String    @unique
+  twitchName         String?   // Делаем необязательным
+  twitch_box_art_url String?   // Делаем необязательным
+  steam_shop_url     String?   // Делаем необязательным
+  rank_steam         Int?      // Делаем необязательным
+  hourlyStats        GameHourlyStats[]
+}
+
+model GameHourlyStats {
+  id              Int       @id @default(autoincrement())
+  game            Game      @relation(fields: [gameId], references: [id])
+  gameId          Int
+  timestamp       DateTime  @default(now())
+  currentPlayers  Int
+  peakToday       Int
+  rank            Int?       // Добавлено новое поле
+  twitch_view     Int?      @default(0)
+}
