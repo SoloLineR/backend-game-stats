@@ -6,7 +6,7 @@ export class GamesController {
   constructor(private readonly gamesService: GamesService) {}
 
   @Get()
-  findAll() {
-    return;
+  getAllGames() {
+    return this.gamesService.getAllGames();
   }
 }
