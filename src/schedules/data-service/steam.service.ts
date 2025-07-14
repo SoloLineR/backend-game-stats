@@ -3,6 +3,11 @@
 import { Injectable, Logger } from '@nestjs/common';
 import puppeteer, { Browser, Page } from 'puppeteer';
 import { SteamGameDto } from './stteam-game.dto';
+import { prisma } from 'src/lib/prisma';
+import { Game } from 'generated/prisma';
+// import { async } from '../../utils/match';
+import { TwitchApiService } from './twitch-api.service';
+import { TwitchGame } from './type';
 
 // ВАЖНО: Селекторы Steam могут меняться. Рекомендуется вынести их в конфигурационный файл.
 const SELECTORS = {
@@ -15,6 +20,8 @@ const SELECTORS = {
 
 @Injectable()
 export class SteamParserService {
+  constructor(private readonly TwitchApiService: TwitchApiService) {}
+
   private readonly logger = new Logger(SteamParserService.name);
   private browser: Browser | null = null;
   private page: Page | null = null;
@@ -206,6 +213,173 @@ export class SteamParserService {
       await this.browser.close();
       this.browser = null;
       this.page = null;
+    }
+  }
+
+  private async getGamesFromDbBySteamAppid(
+    steam_appid: number,
+  ): Promise<Game | false> {
+    const existingGame = await prisma.game.findUnique({
+      where: { steamAppId: steam_appid },
+    });
+    if (existingGame) {
+      return existingGame;
+    }
+    return false;
+  }
+
+  private async updateGameStatsInDB({
+    gameId,
+    rank,
+    currentPlayers,
+    peakToday,
+    twitch_view,
+  }: {
+    gameId: number;
+    rank: number;
+    currentPlayers: number;
+    peakToday: number;
+    twitch_view: number;
+  }): Promise<void> {
+    try {
+      console.log(
+        twitch_view,
+        gameId,
+        rank,
+        currentPlayers,
+        peakToday,
+        'inside updateGameStatsInDB',
+      );
+
+      await prisma.gameHourlyStats.create({
+        data: {
+          gameId: gameId,
+          rank: rank,
+          currentPlayers: currentPlayers,
+          peakToday: peakToday,
+          twitch_view: twitch_view,
+        },
+      });
+      console.log(`Статистика для игры с ID ${gameId} успешно добавлена ffff`);
+    } catch (error) {
+      console.error(
+        `Ошибка при добавлении статистики для игры с ID ${gameId}:`,
+        error,
+      );
+      throw error; // или обработайте ошибку по-другому
+    }
+  }
+
+  private async addTwitchDataToGame({
+    gameId,
+    twitchGameId,
+    name,
+    box_art_url,
+  }: {
+    gameId: number;
+    twitchGameId: string;
+    name: string;
+    box_art_url: string;
+  }): Promise<void> {
+    await prisma.game.update({
+      where: { id: gameId },
+      data: {
+        twitchGameId: Number(twitchGameId),
+        twitchName: name,
+        twitch_box_art_url: box_art_url,
+      },
+    });
+  }
+
+  private async addGameIntoDB({
+    game,
+    twitchData,
+  }: {
+    game: SteamGameDto;
+    twitchData: TwitchGame;
+  }): Promise<void> {
+    await prisma.game.create({
+      data: {
+        steamName: game.name,
+        rank_steam: game.rank,
+        steam_shop_url: game.link_steam_shop,
+        steamAppId: game.steam_appid,
+        twitchGameId: Number(twitchData.id),
+        twitchName: twitchData.name,
+        twitch_box_art_url: twitchData.box_art_url,
+      },
+    });
+    const gameFromDb = await prisma.game.findFirst({
+      where: { steamAppId: game.steam_appid },
+    });
+    if (gameFromDb) {
+      const views = await this.TwitchApiService.getViews(gameFromDb.id);
+
+      await this.updateGameStatsInDB({
+        gameId: gameFromDb.id,
+        rank: game.rank,
+        currentPlayers: game.currentPlayers,
+        peakToday: game.peakToday,
+        twitch_view: views || 0,
+      });
+    }
+  }
+  public async updateGamesInDB(games: SteamGameDto[]): Promise<void> {
+    const updatedGames = games;
+
+    for (const game of updatedGames) {
+      const existingGame = await this.getGamesFromDbBySteamAppid(
+        game.steam_appid,
+      );
+
+      if (existingGame && existingGame.twitchGameId) {
+        const views = await this.TwitchApiService.getViews(
+          existingGame.twitchGameId,
+        );
+        console.log(views, 'views before updateDto');
+
+        const updateDto = {
+          gameId: existingGame.id,
+          rank: game.rank,
+          currentPlayers: game.currentPlayers,
+          peakToday: game.peakToday,
+          twitch_view: views || 0,
+        };
+        console.log(updateDto, 'updateDto');
+
+        await this.updateGameStatsInDB(updateDto);
+      } else if (existingGame && !existingGame.twitchGameId) {
+        const twitchGame = await this.TwitchApiService.findBestMatch(game.name);
+
+        if (twitchGame) {
+          await this.addTwitchDataToGame({
+            gameId: existingGame.id,
+            twitchGameId: twitchGame.id,
+            name: twitchGame.name,
+            box_art_url: twitchGame.box_art_url,
+          });
+          const views = await this.TwitchApiService.getViews(
+            parseInt(twitchGame.id),
+          );
+
+          const updateDto = {
+            gameId: existingGame.id,
+            rank: game.rank,
+            currentPlayers: game.currentPlayers,
+            peakToday: game.peakToday,
+            twitch_view: views || 0,
+          };
+          await this.updateGameStatsInDB(updateDto);
+        } else {
+          continue;
+        }
+      }
+      if (!existingGame) {
+        const twitchGame = await this.TwitchApiService.findBestMatch(game.name);
+        if (twitchGame) {
+          await this.addGameIntoDB({ game, twitchData: twitchGame });
+        }
+      }
     }
   }
 }

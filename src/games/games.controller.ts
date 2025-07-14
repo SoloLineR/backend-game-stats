@@ -16,6 +16,8 @@ export class GamesController {
 
   @Get('steam')
   async getSteamGames() {
-    return this.steamParserService.fetchMostPlayedGames();
+    const games = await this.steamParserService.fetchMostPlayedGames();
+    await this.steamParserService.updateGamesInDB(games);
+    return this.gamesService.getAllGames();
   }
 }

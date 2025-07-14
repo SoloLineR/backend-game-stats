@@ -3,21 +3,23 @@ import axios from 'axios';
 import { withRetry } from '../../utils/match'; // Assuming withRetry is still needed
 import { TwitchGame, TwitchResponse, TwitchStream } from './type'; // Assuming TwitchStream type is defined
 import string_comparison from 'string-comparison';
+import { Injectable } from '@nestjs/common';
+import { ConfigService } from '@nestjs/config';
 
 /**
  * @description Service for handling all communications with the Twitch Helix API.
- */
+ */ @Injectable()
 export class TwitchApiService {
   private readonly clientId: string;
   private readonly accessToken: string;
   private readonly twitchApiUrl = 'https://api.twitch.tv/helix';
 
-  constructor(clientId: string, accessToken: string) {
-    if (!clientId || !accessToken) {
+  constructor(private configService: ConfigService) {
+    this.clientId = this.configService.get<string>('TWITCH_CLIENT')!;
+    this.accessToken = this.configService.get<string>('TWITCH_BEARER')!;
+    if (!this.clientId || !this.accessToken) {
       throw new Error('Twitch Client ID и Access Token обязательны.');
     }
-    this.clientId = clientId;
-    this.accessToken = accessToken;
   }
 
   /**
@@ -37,6 +39,7 @@ export class TwitchApiService {
           timeout: 5000,
         },
       );
+
       return response.data.data;
     } catch (error) {
       console.error(`Error fetching Twitch streams for game ${gameId}:`, error);
@@ -56,6 +59,7 @@ export class TwitchApiService {
         (sum, stream) => sum + stream.viewer_count,
         0,
       );
+
       return totalViewers;
     } catch (error) {
       console.error(
@@ -77,7 +81,7 @@ export class TwitchApiService {
         const response = await axios.get<TwitchResponse>(
           `${this.twitchApiUrl}/search/categories`,
           {
-            params: { query: encodeURIComponent(gameName), first: 20 },
+            params: { query: gameName, first: 20 },
             headers: {
               'Client-ID': this.clientId,
               Authorization: `Bearer ${this.accessToken}`,
